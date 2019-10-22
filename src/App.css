@@ -1,12 +1,12 @@
-.App {
+.app {
   text-align: center;
 }
 
-.App-logo {
+.app-logo {
   height: 40vmin;
 }
 
-.App-header {
+.app-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -17,6 +17,27 @@
   color: white;
 }
 
-.App-link {
+.app-link {
   color: #09d3ac;
+}
+
+.m-header,
+.m-footer {
+  height: 4rem;
+}
+
+.main-container {
+  height: calc(100% - 8rem);
+}
+
+.one-col {
+  background: url('./assets/icons/one.png') no-repeat left center;
+}
+
+.two-cols {
+  background: url('./assets/icons/two.png') no-repeat left center;
+}
+
+.three-cols {
+  background: url('./assets/icons/three.png') no-repeat left center;
 }
